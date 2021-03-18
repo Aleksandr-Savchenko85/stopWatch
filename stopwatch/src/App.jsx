@@ -1,8 +1,9 @@
 import React from 'react';
+import BoardWatch from './BoardWatch';
 
-const App =()=>{
-    return(
-        <div>Hello user</div>
+const App = () => {
+    return (
+        <BoardWatch />
     )
 };
 
