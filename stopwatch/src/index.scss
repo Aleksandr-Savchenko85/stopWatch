@@ -9,6 +9,8 @@ body{
   justify-content: center;
   align-items: center;
   background-color: black;
+  color: white;
+  font-size: 45px;
 
 }
 
@@ -42,6 +44,7 @@ button{
   font-family: cursive;
   font-weight: 700;
   text-transform: uppercase;
+  margin: 20px;
 }
 
 .timer{
@@ -57,8 +60,7 @@ button{
 .hours,.minutes, .seconds{
   font-size: 70px;
   color: white;
- /*  border: 1px solid white; */
-  margin: 15px;
+  border: 1px solid white;
 }
 
 .name{

@@ -1,12 +1,22 @@
 import React from 'react'
 
-const Buttons = () => {
+const Buttons = ({ start, stopTimer, resetTimer, waitTimer, status }) => {
+
+    let resetPage =()=>{
+        window.location.reload()
+        return start
+    }
     return (
         <div className="board-btn">
-            <button className="start">start</button>
-            <button className="stop">stop</button>
-            <button className="wait">wait</button>
-            <button className="reset">reset</button>
+            {status === 0 ? <button className="start" onClick={start}>start</button> : ""}
+            {status === 1 ? <div>
+                <button className="stop" onClick={stopTimer}>stop</button>
+                <button className="wait" onDoubleClick={waitTimer}>wait</button>
+                <button className="reset" onClick={resetPage}>reset</button>
+            </div> : ""}
+
+
+
         </div>
 
     )
