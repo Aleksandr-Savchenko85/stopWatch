@@ -17,27 +17,27 @@ body{
 .board-timer{
   display: flex;
   flex-direction: column;
-  border: 1px solid white;
+  border: 5px solid white;
+  border-radius: 20px;
   height:  250px;
   width: 450px;
   justify-content: center;
   align-items: center;
-  
-  
+    
 }
+
 .board-btn{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  border: 1px solid white;
   height:  100px;
   width: 430px;
 }
 
 button{
   display: inline-block;
-  height: 50px;
-  width: 80px;
+  height: 60px;
+  width: 100px;
   border-radius: 50px;
   outline: none;
   font-size: 12px;
@@ -47,11 +47,16 @@ button{
   margin: 20px;
 }
 
+button:hover{
+  cursor: pointer;
+  font-size: 13px;
+   
+}
+
 .timer{
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid white;
   height:  100px;
   width: 430px;
   margin: 20px;
@@ -60,8 +65,7 @@ button{
 .hours,.minutes, .seconds{
   font-size: 70px;
   color: white;
-  border: 1px solid white;
-}
+ }
 
 .name{
   font-size: 40px;

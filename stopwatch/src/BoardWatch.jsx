@@ -25,20 +25,14 @@ const BoardWatch = () => {
     };
 
     const resetTimer = () => {
-         clearInterval(interv);
-         setTime({ SS: 0, MM: 0, HH: 0 });
-         setStatus(1);
-         setInterv(setInterval(runTimer, 1000));
-         
+        clearInterval(interv);
+        setTime({ SS: 0, MM: 0, HH: 0 });
+        setStatus(1);
+        setInterv(setInterval(runTimer, 1000));
 
-     
-     
-        console.log("nvhfvbhfvnf ");
-        
-       
     };
-    
- 
+
+
     let updatedSS = time.SS
     let updatedMM = time.MM
     let updatedHH = time.HH
@@ -56,7 +50,6 @@ const BoardWatch = () => {
         updatedSS++;
         return setTime({ SS: updatedSS, MM: updatedMM, HH: updatedHH })
     };
-
 
     return (
         <>
