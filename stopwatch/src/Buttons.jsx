@@ -1,6 +1,8 @@
 import React from 'react'
 
 const Buttons = ({ start, stopTimer, resetTimer, waitTimer, status }) => {
+    
+    
 
     return (
         <div className="board-btn">

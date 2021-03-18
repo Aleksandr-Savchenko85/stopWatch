@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import Timer from './Timer';
 import Buttons from './Buttons';
 
+
 const BoardWatch = () => {
     const [time, setTime] = useState({ SS: 0, MM: 0, HH: 0 });
     const [interv, setInterv] = useState();
@@ -28,7 +29,7 @@ const BoardWatch = () => {
         clearInterval(interv);
         setTime({ SS: 0, MM: 0, HH: 0 });
         setStatus(1);
-        setInterv(setInterval(runTimer, 1000));
+        setInterv(setInterval(runTimer, 1000))
 
     };
 
