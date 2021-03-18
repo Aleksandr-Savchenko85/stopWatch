@@ -1,6 +1,6 @@
 *{
   box-sizing: border-box;
-}
+ }
 
 body{
   display: flex;
@@ -11,6 +11,7 @@ body{
   background-color: black;
 
 }
+
 .board-timer{
   display: flex;
   flex-direction: column;
@@ -30,6 +31,7 @@ body{
   height:  100px;
   width: 430px;
 }
+
 button{
   display: inline-block;
   height: 50px;
@@ -40,8 +42,6 @@ button{
   font-family: cursive;
   font-weight: 700;
   text-transform: uppercase;
-
-
 }
 
 .timer{
@@ -53,10 +53,12 @@ button{
   width: 430px;
   margin: 20px;
 }
+
 .time{
   font-size: 70px;
   color: white;
 }
+
 .name{
   font-size: 40px;
   font-weight: 400;
