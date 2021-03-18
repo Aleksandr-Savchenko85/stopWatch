@@ -54,9 +54,11 @@ button{
   margin: 20px;
 }
 
-.time{
+.hours,.minutes, .seconds{
   font-size: 70px;
   color: white;
+ /*  border: 1px solid white; */
+  margin: 15px;
 }
 
 .name{
