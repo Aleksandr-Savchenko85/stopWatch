@@ -9,7 +9,7 @@ const Buttons = ({ start, stopTimer, resetTimer, waitTimer, status }) => {
             {status === 0 ? <button className="start" onClick={start}>start</button> : ""}
             {status === 1 ? <div>
                 <button className="stop" onClick={stopTimer}>stop</button>
-                <button className="wait" onDoubleClick={waitTimer}>wait</button>
+                <button className="wait" onClick={waitTimer}>wait</button>
                 <button className="reset" onClick={resetTimer}>reset</button>
             </div> : ""}
         </div>
